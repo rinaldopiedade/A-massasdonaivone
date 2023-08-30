@@ -14,10 +14,18 @@ body {
 font-family: 'Times New Roman', Times, serif; font-size: 16px; background-color: rgba(50,50,50,1); width:375px}
 body{width: 450px;}
     main{ width: 440px;}
-    h2,h3{width: 440px; padding: 1px;}   
+      
     dl{width:400px; margin:auto;text-align: center;}
+    
     dd{width:375px; margin:auto;}
+    
     img {display: block; margin: auto;}
+
+    h2 { width:440px; background-color: var(--cor2); color:white; text-align: center; margin: auto; padding: 1px;
+    }
+    h3 { width:440px; margin: center; background-color: var(--cor3); height: 30px; padding: 1px;}
+
+    h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1);text-align: center;}
     
     a {color:var(--cor1); text-decoration: none; font-weight: bold;}
 

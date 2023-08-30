@@ -33,21 +33,13 @@ h3 {text-align: center; background-color: var(--cor3); height: 30px;}
 p {
 text-align: justify; color:black;  background-color: white; text-align: justify; padding: 10px; border-radius: 5px; font-size: 18px; line-height: 1em;
  }
- h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1);}
+ h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
 
 img {display:block; border-radius: 5px;}
 
- a {background-color: var(--cor2); font-weight: bold;}
- 
+  
  a:visited {color:blue}
 
- a:hover{background-color: var(--cor1); text-decoration: underline;}
-
- dt{margin:auto; text-align: left;}
+ a:hover{background-color: var(--cor1); text-decoration: underline;} 
  
- dl{text-align: justify; color:black;  background-color: white; border-radius: 5px; min-width:320px; max-width: 400px; }
-     
-     dd{ width: 250px; margin:auto; text-align: justify; line-height: 1em;
-         }
-
-     footer{background-color: grey; font-size: 0.7em; text-align: center; min-width: 320px; max-width: 900px; margin: auto;}
+ footer{background-color: grey; font-size: 0.7em; text-align: center; min-width: 320px; max-width: 900px; margin: auto;}
