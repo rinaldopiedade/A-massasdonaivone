@@ -19,7 +19,8 @@ body{width: 450px;}
     dl{width:400px; margin:auto;text-align: center;}
     
     dd{width:375px; margin:auto;}
-    
+
+        
     img {display: block; margin: auto;}
 
     h2 { width:440px; background-color: var(--cor3); color:white; text-align: center; margin: auto; padding: 1px;
