@@ -19,13 +19,13 @@ header > nav {background-color: var(--cor4); margin: auto;  }
 
 nav > a {background-color: var(--cor1); color: white; margin-right: 50px; font-size: 1.2em; text-decoration: none;}
 
-a{text-decoration: none;}
+a{text-decoration: none; background-color: var(--cor1);}
 
 a:hover{background-color: var(--cor5); text-decoration: underline;}
 
 section{background-color: white; padding:15px 0px; margin: auto;}
 
-section > p {padding: 15x 15px;}
+h2 > p {padding: 15x 15px;}
 
 section > a{padding:1px;}
 
