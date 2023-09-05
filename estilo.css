@@ -29,7 +29,7 @@ h2 > p {padding: 15x 15px;}
 
 section > a{padding:1px;}
 
-main {  margin: auto; min-width:320px; background-color: white;}
+main {  margin: auto; min-width:320px; background-color: white; }
  
 h1 {color: white; text-align: center; background-color: var(--cor3); margin: auto; font-size: 30px; padding: 15px 0px;}
 
