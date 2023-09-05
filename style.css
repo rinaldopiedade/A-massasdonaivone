@@ -9,17 +9,18 @@
 --cor5:rgba(196,33,33,0.77);} 
 
 body {
-font-family: 'Times New Roman', Times, serif; font-size: 16px; background-image: url(Fotos/toalha1200.jpg); width:100%;
+font-family: 'Times New Roman', Times, serif; font-size: 16px; background-color: rgba(50, 50,50,1); width:100%; 
  }
 
 body{width: 450px; margin: auto;}
-    main{ width: 100%;}
-          
-    dl{width:442px; margin:auto;text-align: center;  background-color: white;}
-
-    dt{margin:auto; text-align: left; padding:5px;}
     
-    dd{width:422px; margin:auto; text-align: justify; padding:10px;}
+main{ width: 100%;}
+          
+    dl{width:442px; margin-bottom: 30px; text-align: center;  background-color: transparent;}
+
+    dt{margin:auto; text-align: left; padding:5px; color: white;}
+    
+    dd{width:422px; margin:auto; text-align: justify; padding:10px; font-size: 1.3em; color: white; }
        
     img {display: block; margin:-1px; width: 100%;}
 
