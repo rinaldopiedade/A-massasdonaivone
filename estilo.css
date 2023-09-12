@@ -40,7 +40,7 @@ h3 {text-align: center; background-color: var(--cor2); height: 30px; padding: 15
 
 p {background-color: white;
 text-align: justify; color:black;  text-align: justify; padding: 15px 0px; border-radius: 5px; font-size: 18px; line-height: 1em; margin: auto;
- }
+max-width: 870px; }
  h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
  
  .pequena{width: 10%;}
