@@ -8,14 +8,14 @@
 --cor4:rgba(115, 62, 62,0.45);
 --cor5:rgba(196,33,33,0.77);} 
 
-* {max-width: 900px; width:100%; margin:auto;}
+* {max-width: 900px; width:100%; min-width: 320px;margin:auto;}
 
 body {
 font-family: 'Times New Roman', Times, serif; font-size: 16px; background-color: rgba(50,50,50,1);}
 
 header {height:auto; }
 
-header > nav {background-color: var(--cor4); margin: auto;  }
+nav {background-color: var(--cor4); margin: auto;  }
 
 nav > a {background-color: var(--cor1); color: white; margin:5px 30px 5px 5px; font-size: 1.2em; text-decoration: none;}
 
@@ -42,14 +42,14 @@ h1 {color: white; text-align: center; background-color: var(--cor3); margin: aut
 h2 { background-color: var(--cor3); color:white; text-align: center; margin: auto; padding: 15px 0px;
 }
 
-h3 {text-align: center; background-color: var(--cor2); height: 30px; padding: 15px 0px;}
+h3 {text-align: center; background-color: var(--cor2); height: 5px; padding: 15px 0px;}
 
 p {background-color: white;
 text-align: justify; color:black;  text-align: justify; padding: 15px 15px; border-radius: 5px; font-size: 18px; line-height: 1em; margin: auto;
 max-width: 870px; }
  h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
  
- .pequena{width: 10%;}
+ .pequena{width: 40%;}
 
 img {display:block; border-radius: 5px;}
 
