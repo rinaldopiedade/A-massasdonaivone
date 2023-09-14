@@ -35,7 +35,7 @@ section > p {padding: 10px 5px 5px 10px; width: 61%; margin-left:34%; min-width:
 
 section > a{padding:1px;}
 
-main {  margin: auto; min-width:320px; background-color: white; }
+main {  margin: auto; min-width:320px; background-color: white; width: 100%;}
  
 h1 {color: white; text-align: center; background-color: var(--cor3); margin: auto; font-size: 30px; padding: 15px 0px;}
 
