@@ -24,7 +24,7 @@ a{text-decoration: none; background-color: var(--cor1);}
 
 a:hover{background-color: var(--cor5); text-decoration: underline;}
 
-section {background-image:url(Fotos/mesapreta900.jpg); background-size:34%; background-repeat: repeat-y}
+section {background-image:url(Fotos/mesapreta900.jpg); background-size: 34%; background-repeat: repeat-y; background-attachment: fixed;}
 
 section ul {padding: 10px 5px 5px 10px;  list-style-type: '\0020\0020'; list-style-position: inside; background-color: white; width: 61%; margin-left:34%; min-width: 186px;}
 
@@ -32,14 +32,9 @@ section li{margin: auto; min-width: 186px;}
 
 section > p {padding: 10px 5px 5px 10px; width: 61%; margin-left:34%; min-width: 186px; border-radius: 0px; }
 
-.receita1{background-image: url(Fotos/tomates900.jpg); background-size: 35%; background-repeat: repeat-y;}
+.receita1{background-image: url(Fotos/tomates900.jpg);}
 
-.receitaleite {background-image:url(Fotos/fundoleite900.jpg); background-size:35%; background-repeat: repeat-y;}
-
-
-.receitaleite > ul {padding: 10px 5px 5px 10px;  list-style-type: '\0020\0020'; list-style-position: inside; background-color: white; width: 61%; margin-left:34%; min-width: 186px;}
-
-.receitaleite li {margin: auto; min-width: 186px;}
+.receita2 {background-image:url(Fotos/fundoleite900.jpg);}
 
 section > a {padding:1px;}
 
@@ -56,6 +51,8 @@ p {background-color: white;
 text-align: justify; color:black;  text-align: justify; padding: 15px 15px; border-radius: 5px; font-size: 18px; line-height: 1em; margin: auto;
 max-width: 870px; }
  h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
+
+ p > text{max-width: 186px;}
  
  .pequena{width: 40%;}
 
