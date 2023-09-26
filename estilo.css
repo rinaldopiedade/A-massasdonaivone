@@ -19,8 +19,7 @@
 
 * {max-width: 900px; width:100%; min-width: 320px; margin:auto;}
 
-body {
-font-size: 16px; background-color: white;}
+
 
 header {height:auto; }
 
@@ -52,23 +51,23 @@ section > a {padding:1px;}
 
 .fora{position: relative; background-color: black;}
 
-.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); box-shadow: 5px 5px 5px black; max-width: 10%;}
+.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); box-shadow: 5px 5px 5px black; padding: 10px;}
 
-div.dentro p {border: black;}
+div p{padding:0px;}
 
 main {margin: auto; min-width:320px; background-color: white; width: 100%;}
  
 h1 {color: white; text-align: center; background-color: var(--cor3); margin: auto; font-size: 30px; padding: 15px 0px;
-font-family: var(--fat);}
+font-family: var(--fat); width: 100%;}
 
-h2 { background-color: var(--cor3); color:white; text-align: center; margin: auto; padding: 15px 0px; font-family: var(--berk);
+h2 { background-color: var(--cor3); color:white; text-align: center; margin: auto; padding: 15px 0px; font-family: var(--berk); width: 100%;
 }
 
-h3 {text-align: center; background-color: var(--cor2); height: 20px;padding:5px 0px; font-family: var(--jose);}
+h3 {text-align: center; background-color: var(--cor2); height: 20px;padding:5px 0px; font-family: var(--jose); width: 100%;}
 
 p {background-color: white; font-family: var(--jose);
 text-align: justify; color:black;  text-align: justify; padding: 15px 15px; border-radius: 5px; font-size: 18px; line-height: 1em; margin: auto;
-max-width: 870px; }
+max-width: 870px; min-width: 187px;}
  h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
 
  p > text{max-width: 186px;}
