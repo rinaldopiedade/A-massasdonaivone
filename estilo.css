@@ -1,8 +1,8 @@
 @charset "utf8";
 
-
-@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & família  & family= Josefin+Sans & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@100 & display=swap');
 
 :root {
 
@@ -11,7 +11,7 @@
 --cor3: rgba(237,41,41,0.93);
 --cor4:rgba(115, 62, 62,0.45);
 --cor5:rgba(196,33,33,0.77); 
---fat: 'Abril Fatface';
+--fat: 'Abril Fatface', cursive;
 --jose: 'Josefin Sans', sans-serif;
 --berk:'Berkshire Swash', cursive;
 
@@ -52,7 +52,7 @@ section > a {padding:1px;}
 
 .fora{position: relative; background-color: black;}
 
-.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); box-shadow: 5px 5px 5px black; max-width: 90%;}
+.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); box-shadow: 5px 5px 5px black; max-width: 10%;}
 
 div.dentro p {border: black;}
 
