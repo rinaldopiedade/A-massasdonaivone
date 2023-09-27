@@ -18,7 +18,7 @@
 }
 
 * {max-width: 900px; width:100%; margin: auto;}
-body{min-width: 320px;}
+body{min-width: 320px; background-color: rgb(55,55,55,1);}
 
 
 
@@ -50,11 +50,11 @@ section > p {padding: 10px 5px 5px 10px; width: 61%; margin-left:34%; min-width:
 
 section > a {padding:1px;}
 
-.fora{position: relative; background-color: black;}
+div#fora{position: relative; background-color: white;}
 
-.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); padding: 10px;}
+div#dentro{position: absolute; }
 
-div.dentro p {padding:0px;}
+div#dentro p {padding:10px; text-align: center;}
  
 main {margin: auto; min-width:320px; background-color: white; width: 100%;}
  
@@ -67,8 +67,8 @@ h2 { background-color: var(--cor3); color:white; text-align: center; margin: aut
 h3 {text-align: center; background-color: var(--cor2); height: 20px; font-family: var(--jose);}
 
 p {background-color: white; font-family: var(--jose);
-text-align: justify; color:black;  text-align: justify; padding: 15px 5px; border-radius: 5px; font-size: 18px; line-height: 1em;
-max-width: 870px; min-width: 187px;}
+text-align: justify; color:black;  text-align: justify; padding: 15px 0px; border-radius: 5px; font-size: 18px; line-height: 1em;
+max-width: 870px; min-width: 187px; width: 95%; }
 
  h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
 
