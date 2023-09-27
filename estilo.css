@@ -18,6 +18,7 @@
 }
 
 * {max-width: 900px; width:100%; margin: auto;}
+body{min-width: 320px;}
 
 
 
@@ -37,7 +38,7 @@ section ul {padding: 10px 5px 5px 10px;  list-style-type: '\0020\0020'; list-sty
 
 section li{margin: auto; min-width: 186px;}
 
-section > p {padding: 10px 5px 5px 10px; width: 61%; margin-left:34%; min-width: 186px; border-radius: 0px; }
+section > p {padding: 10px 5px 5px 10px; width: 61%; margin-left:34%; min-width: 186px; }
 
 .receita1{background-image: url(Fotos/tomates900.jpg);}
 
@@ -51,10 +52,10 @@ section > a {padding:1px;}
 
 .fora{position: relative; background-color: black;}
 
-.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); box-shadow: 5px 5px 5px black; padding: 10px;}
+.dentro{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); padding: 10px;}
 
-div p{padding:0px;}
-
+div.dentro p {padding:0px;}
+ 
 main {margin: auto; min-width:320px; background-color: white; width: 100%;}
  
 h1 {color: white; text-align: center; background-color: var(--cor3); margin: auto; font-size: 30px; padding: 15px 0px;
@@ -63,17 +64,15 @@ font-family: var(--fat); width: 100%;}
 h2 { background-color: var(--cor3); color:white; text-align: center; margin: auto; padding: 15px 0px; font-family: var(--berk); width: 100%;
 }
 
-h3 {text-align: center; background-color: var(--cor2); height: 20px;padding:5px; font-family: var(--jose);}
+h3 {text-align: center; background-color: var(--cor2); height: 20px; font-family: var(--jose);}
 
 p {background-color: white; font-family: var(--jose);
-text-align: justify; color:black;  text-align: justify; padding: 15px 5px; border-radius: 5px; font-size: 18px; line-height: 1em; margin: auto;
+text-align: justify; color:black;  text-align: justify; padding: 15px 5px; border-radius: 5px; font-size: 18px; line-height: 1em;
 max-width: 870px; min-width: 187px;}
 
  h3 > a {color:white; text-decoration: none; font-weight: bold; background-color: var(--cor1); text-align: center;}
 
- 
- 
- .pequena{width: 40%; border-radius: 50%;}
+.pequena{width: 40%; border-radius: 50%;}
 
 img {display:block; border-radius: 5px;}
 
